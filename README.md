@@ -1,6 +1,7 @@
 # -GreenTech-MVP-Sostenible_Pablo_GarciaRojas
 **Auditoría, Refactorización y Defensa de una Landing Page**
 **Autor:** Pablo García Rojas
+
 **Fecha:** 17 de Marzo 2026
 
 ## 1. Resumen Ejecutivo
