@@ -21,7 +21,7 @@ He realizado varios cambios como:
 ## 3. Impacto en la Sostenibilidad, ASG y Economía Circular
 Todos estos cambios técnicos no son solo para que la web cargue más rápido, sino que tienen un impacto físico real en el medio ambiente, siguiendo los principios de la Economía Circular:
 1. **Menos consumo de red (Carbono Operacional):** Al quitar tanto código basura, la web pesa muchísimo menos. Esto significa que los servidores y las redes gastan menos energía en enviarle la página al usuario [1]. 
-2. **Ahorro de batería (Green Software):** Una web que no obliga al procesador a pensar tonterías es una web que no calienta el móvil. Si la batería dura más, el usuario no tiene que cargar el teléfono tan a menudo 
+2. **Ahorro de batería (Green Software):** Una web que no obliga al procesador a pensar tonterías es una web que no calienta el móvil. Si la batería dura más, el usuario no tiene que cargar el teléfono tan a menudo [2]. 
 3. **Freno a la obsolescencia programada (E-Waste):** Si los desarrolladores hacemos webs tan pesadas, obligamos a la gente a comprar móviles nuevos y más potentes continuamente. Al hacer una web ligera que funciona perfectamente y de forma fluida en móviles antiguos o de gama baja, alargamos la vida útil de ese hardware. Esto retrasa la obsolescencia programada y evita generar tanta basura electrónica [3].
 
 ## 4. Referencias
