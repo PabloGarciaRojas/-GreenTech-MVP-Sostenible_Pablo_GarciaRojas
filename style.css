@@ -1,0 +1,96 @@
+/* CSS NATIVO: El uso de variables y Flexbox reemplaza a Bootstrap.
+   Al ser un código tan ligero, evitamos el sobrecalentamiento en teléfonos 
+   de gama baja.
+*/
+:root {
+  --primary-color: #28a745;
+  --primary-hover: #1e7e34;
+  --bg-color: #f4fdf4;
+  --text-light: #ffffff;
+  --text-dark: #212529;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.seccion-principal {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: var(--text-light);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+.imagen-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* la imagen es una etiqueta para poder poner el lazy loading */
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.btn-eco {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: 2px solid var(--primary-color);
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-eco:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+/* El icono SVG en línea requiere su propio tamaño nativo */
+.icono-hoja {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--text-dark);
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
