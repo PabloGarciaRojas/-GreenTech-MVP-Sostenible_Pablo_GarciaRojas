@@ -5,7 +5,7 @@
 **Autor:** Pablo García Rojas
 
 **Fecha:** 17 de Marzo 2026
-
+ 
 ## 1. Resumen Ejecutivo
 Aquí presento el MVP refactorizado para la landing page de la campaña "Salvemos el Planeta". Al revisar el código original que me entregaron, vi que la web consumía muchísimos recursos y batería.
 El código inicial tenía mucha "grasa digital" (bloatware) porque tenía frameworks enormes como Bootstrap o jQuery para hacer cosas súper básicas. Con esta refactorización ha sido demostrar que podemos tener una web visual y funcional, pero mucho más ligera, priorizando de verdad la eficiencia técnica y la sostenibilidad.
